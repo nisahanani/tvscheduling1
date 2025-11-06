@@ -185,7 +185,7 @@ with colg3:
 with colg4:
     tourn = st.number_input("Tournament Size (k)", min_value=2, max_value=10, value=3, step=1)
 
-if st.button("Run All 3 Trials 🚀", use_container_width=True):
+if st.button("Run All 3 Trials", use_container_width=True):
     trials = [
         ("Trial 1", co1, mu1, s1),
         ("Trial 2", co2, mu2, s2),
