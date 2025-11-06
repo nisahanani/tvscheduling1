@@ -143,7 +143,7 @@ st.set_page_config(page_title="GA TV Scheduling", layout="wide")
 st.title("Genetic Algorithm — TV Scheduling")
 
 # ---- Load CSV automatically (no upload step) ----
-csv_path = Path("program_ratings.csv")
+csv_path = Path("program_ratings (1).csv")
 if not csv_path.exists():
     st.error("Missing file: 'program_ratings.csv' not found in the same folder as app.py.")
     st.stop()
